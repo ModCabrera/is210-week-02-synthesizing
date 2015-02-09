@@ -29,7 +29,5 @@ class Task03TestCase(unittest.TestCase):
     def test_linus(self):
         """Tests that LINUS has a value of 'van Pelt'"""
         self.assertEquals(task_03.LINUS, 'van Pelt')
-
-
-if __name__ == '__main__':
-    unittest.main()
+    if __name__ == '__main__':
+        unittest.main()
